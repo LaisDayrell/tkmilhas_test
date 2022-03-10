@@ -7,10 +7,12 @@
 >>Run "npm start" in your terminal  
 >>Use the POTS request http://localhost:3000/search  
 >>Add a request a body  
->>>>
+>>
 {  
 "cityName": "Curitiba", //required  
 "minArea": 100,  
 "maxArea": 110,  
 "minBedrooms": 2  
 }  
+  
+>>node v14.15.5
