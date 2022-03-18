@@ -96,14 +96,10 @@ const returnsResults = async (website, search, res, pages, numberItens) => {
         listResults = listResults.concat(listResultsPage);
       }
     });
-
     /*Returns concatenated results*/
     return listResults;
   } else {
-    res.status(200).send({
-      search,
-      results: [],
-    });
+    return [];
   }
 };
 
